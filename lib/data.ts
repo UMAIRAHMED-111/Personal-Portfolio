@@ -77,7 +77,7 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
     git:'https://github.com/',
-    live:'https://github.com/',
+    live:'https://crownapparels.netlify.app/',
   },
   {
     title: "Brother's Roofing Website - Ontario (Canada)",
@@ -85,8 +85,8 @@ export const projectsData = [
       "A landing page for a Roofing Services provider located in Ontario Canada. Website created using react with Custom Backend using the MERN stack. Styled using Tailwind CSS. State management using Redux.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
-    git:'https://github.com/',
-    live:'https://github.com/',
+    git:'https://github.com/UMAIRAHMED-111/Brothers-Roofing',
+    live:'https://brothersroofing.ca/',
   },
 ] as const;
 
