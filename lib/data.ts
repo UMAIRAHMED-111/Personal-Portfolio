@@ -5,6 +5,8 @@ import { SiUpwork } from "react-icons/si";
 import corpcommentImg from "@/public/pic1.png";
 import rmtdevImg from "@/public/pic2.png";
 import wordanalyticsImg from "@/public/pic3.png";
+import securify from "@/public/securify.png";
+import ezent from "@/public/ezent.png";
 
 export const links = [
   {
@@ -87,6 +89,24 @@ export const projectsData = [
     imageUrl: wordanalyticsImg,
     git:'https://github.com/UMAIRAHMED-111/Brothers-Roofing',
     live:'https://brothersroofing.ca/',
+  },
+  {
+    title: "Securify Website - Student Led Startup",
+    description:
+      "A landing page for a Student Led Data Security Provider Startup. Website created using react with Custom Backend using the MERN stack. Styled using Tailwind CSS. State management using Redux.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: securify,
+    git:'https://github.com/UMAIRAHMED-111/Securify-Data-Secure',
+    live:'https://securify-livedemo.netlify.app/',
+  },
+  {
+    title: "Ezent - Event Booking Website",
+    description:
+      "A landing page for an Event Booking Website. Website created using react with Custom Backend using the MERN stack. Styled using Tailwind CSS. State management using Redux.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: ezent,
+    git:'https://github.com/UMAIRAHMED-111/React-Event-Website',
+    live:'https://ezent-app.netlify.app/',
   },
 ] as const;
 
